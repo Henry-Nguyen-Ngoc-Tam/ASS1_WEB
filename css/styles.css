@@ -1,0 +1,217 @@
+ * {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 14px;
+     color: #555;
+     line-height: 1.285;
+     background-image: url("../images/bg.png");
+ }
+ /*-----TRANG CHU------*/
+/*MENU*/
+ .menu {
+     background-color: #343a40;
+ }
+
+ .menu .navbar-dark .navbar-brand {
+     font-size: 25px;
+ }
+
+ .menu .left-menu {
+     vertical-align: middle;
+ }
+
+ .menu .left-menu .navbar-nav li {
+     text-transform: uppercase;
+     padding: 0 10px;
+     font-weight: 500;
+ }
+
+ .menu .navbar-dark .navbar-nav .nav-link {
+     color: #d2dad7;
+     font-size: 16px;
+ }
+
+ .menu .navbar-dark .navbar-nav .nav-link:hover {
+     color: #2ac790;
+ }
+
+ .menu .form-group {
+     margin-bottom: 0;
+     position: relative;
+ }
+
+ .menu .form-group .row {
+     /*margin: 0;*/
+     margin: 0;
+ }
+
+ .menu .form-group .search-form {
+     position: relative;
+ }
+
+ .menu .form-group .search-form input {
+     padding: 10px 12px;
+     font-size: 16px;
+     background-color: #2c2f3a;
+     border: none;
+     color: #fff;
+     width: 100%;
+ }
+ .menu .form-group .search-form i {
+     position: absolute;
+     font-size: 16px;
+     line-height: 40px;
+     right: 20px;
+     top: 0;
+     cursor: pointer;
+ }
+ .menu .form-group button {
+     background-color: transparent;
+     border: none;
+     padding: 5px 0;
+     color: #d2dad7;
+     font-size: 16px;
+     cursor: pointer;
+}
+.menu .form-group button:hover {
+     color: #2ac790;
+}
+/*MAIN-CONTENT*/
+.main-contain {
+     margin-top: 15px;
+}
+.main-contain .main-content {
+     box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+.main-contain .main-content .main-slider .item {
+     padding: 0 10px;
+     display: block;
+     overflow: hidden;
+}
+.main-contain .main-content .main-slider .item h1 {
+     font-size: 20px;
+     font-weight: 700;
+}
+.main-contain .main-content .main-slider img {
+     width: auto;
+     height: 350px;
+}
+.main-contain h1 {
+     font-size: 20px;
+     font-weight: 700;
+}
+.main-contain .sidebar {
+
+}
+.main-slider .slick-dots li button:before {
+     font-size: 20px;
+}
+.main-contain .main-content .post-list {
+     margin-top: 40px;
+     border-top: 5px solid #2ac790;
+}
+.post-list .post {
+     margin-top: 20px;
+     padding-bottom: 30px;
+     border-bottom: 2px solid #aba4a4;
+}
+.post-list .post .title-image {
+     height: 200px;
+     width: 200px;
+     overflow: hidden;
+}
+.post-list .post .title-image img {
+     height: 100%;
+     display: block;
+     width: auto;
+}
+.post-list .post .row {
+     margin: 0;
+}
+.post-list .post .title {
+     background-color: red;
+}
+.post-list .post .content-title {
+     font-size: 20px;
+     font-weight: 700;
+}
+.post-list .post .topic {
+     font-size: 20px;
+     font-weight: 500px;
+}
+.sidebar .ad .ad-poster {
+     overflow: hidden;
+}
+.sidebar .ad .ad-poster img {
+     height: auto;
+     display: block;
+     width: 100%;
+}
+#back-to-top {
+     width: 50px;
+     height: 50px;
+     background-color: #2c2f3a;
+     color: #fff;
+     line-height: 50px;
+     text-align: center;
+     font-size: 20px;
+     position: fixed;
+     right: 15px;
+     bottom: 50px;
+     cursor: pointer;
+}
+.hidden {
+     opacity: 0;
+     pointer-events: none;
+}
+/*-----TRANG DANG KY TAI KHOAN------*/
+
+.main-contain {
+     margin-top: 15px;
+}
+
+.main-contain .form-group {
+     margin: 0px auto;
+     max-width: 600px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+}
+.main-contain .form-group h2 {
+     font-size: 16px;
+}
+.main-contain .form-group input {
+     padding: 5px;
+     width: 100%;
+}
+.main-contain .form-group .pass input,
+.main-contain .form-group .re-pass input{
+     width: 50%;
+}
+.main-contain .form-group .sex input {
+     width: auto;
+     margin: 0 10px;
+}
+.main-contain .form-group button {
+     padding: 12px;
+     background-color: #2c2f3a;
+     color: #fff;
+     margin: 0 auto;
+     display: block;
+}
+.main-contain .form-group .reg {
+     /*position: relative;*/
+}
+.main-contain .form-group div {
+     margin-top: 5px;
+     padding: 1px 0;
+}
+.footer {
+     height: 60px;
+     background-color: #555;
+}
+ 
