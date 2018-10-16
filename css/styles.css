@@ -3,7 +3,13 @@
      padding: 0;
      box-sizing: border-box;
  }
-
+ .avatar{
+    height: 40px ;
+    width: 40px ;
+}
+.author{
+    position: absolute;
+}
  body {
      font-family: 'Roboto', sans-serif;
      font-size: 14px;
@@ -85,6 +91,7 @@
 .main-contain {
      margin-top: 15px;
 }
+
 .main-contain .main-content {
      box-shadow: 2px 2px 2px 3px rgba(0, 0, 0, 0.1);
 }
@@ -143,6 +150,7 @@
 .post-list .post .topic {
      font-size: 20px;
      font-weight: 500px;
+     position: relative;
 }
 .sidebar .ad .ad-poster {
      overflow: hidden;
@@ -213,5 +221,27 @@
 .footer {
      height: 60px;
      background-color: #555;
+}
+/* Dang bai */
+#header {
+    height: 250px;
+}
+#ads{
+    height: 100px;
+  
+}
+.banner{
+    width: 80%;
+    height: inherit;
+    
+}
+.allbody{
+    background-color: darkgray;
+}
+.body1{
+    width: 80%;
+    background-color: white;
+    border: 1px solid grey;
+    padding:0px;
 }
  
