@@ -9,6 +9,7 @@
 }
 .author{
     position: absolute;
+    bottom:5px;
 }
  body {
      font-family: 'Roboto', sans-serif;
@@ -243,5 +244,14 @@
     background-color: white;
     border: 1px solid grey;
     padding:0px;
+    padding-bottom: 10px; 
 }
- 
+
+.topmem{
+    position: relative;
+}
+.topm{
+    width: auto;
+    position: fixed;
+    bottom:30px;
+}
