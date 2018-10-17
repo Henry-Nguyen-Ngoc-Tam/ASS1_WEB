@@ -10,7 +10,7 @@
 .author{
     position: absolute;
     bottom:1px;
-    right:2px;
+    right:1px;
 }
  body {
      font-family: 'Roboto', sans-serif;
@@ -153,6 +153,10 @@
      font-size: 20px;
      font-weight: 500px;
      position: relative;
+    color: #132bb1;
+}
+
+
 }
 .sidebar .ad .ad-poster {
      overflow: hidden;
