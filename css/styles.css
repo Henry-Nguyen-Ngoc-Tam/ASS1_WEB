@@ -9,7 +9,8 @@
 }
 .author{
     position: absolute;
-    bottom:5px;
+    bottom:1px;
+    right:2px;
 }
  body {
      font-family: 'Roboto', sans-serif;
@@ -252,6 +253,6 @@
 }
 .topm{
     width: auto;
-    position: fixed;
+ 
     bottom:30px;
 }
